@@ -1,0 +1,90 @@
+/* ----- BASIC LAYOUT ----- */
+body {
+    background-color: #2a003f;
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+header, h1 {
+    text-align: center;
+    margin: 0;
+    background-color: #ff7ce2;
+    color: black;
+    font-size: 60px;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+hr {
+    border: 2px dashed white;
+    margin: 20px 0;
+}
+
+/* ----- NAVIGATION BAR ----- */
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.navButton, .currentNavButton {
+    display: inline-block;
+    background-color: #d14fff;
+    border: 3px solid #8e34c2;
+    color: black;
+    font-size: 18px;
+    padding: 10px 15px;
+    margin: 5px;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase; /* NEW CSS PROPERTY */
+}
+
+.navButton:hover, .currentNavButton:hover {
+    background-color: #e9a2ff;
+    color: black;
+}
+
+.currentNavButton {
+    font-weight: bold;
+    border: 3px solid white;
+}
+
+/* ----- SECTION STYLING (NEW) ----- */
+section {
+    box-shadow: 0 0 10px rgba(255, 192, 203, 0.5); /* NEW CSS PROPERTY */
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #1a0029;
+    border-radius: 10px;
+}
+
+/* ----- FOOTER ----- */
+footer {
+    background-color: #3e0059;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    color: #ffccff;
+}
+
+footer img {
+    margin-top: 10px;
+    max-width: 100px;
+}
+
+/* ----- SOURCE SECTION ----- */
+.sourceDiv {
+    padding: 20px;
+    font-size: 14px;
+    color: #ccccff;
+    text-align: left;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.sourceDiv a {
+    color: #ffb3ff;
+    text-decoration: underline;
+}
